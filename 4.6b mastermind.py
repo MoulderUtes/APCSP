@@ -6,10 +6,10 @@ import sys #allows me to exit code
 colors = ("blue", "white", "green", "yellow", "red", "black")
 #create a dictionary with the code
 code = {
-    "1" : random.randrange(1, 9),
-    "2" : random.randrange(1, 9),
-    "3" : random.randrange(1, 9),
-    "4" : random.randrange(1, 9),
+    "1" : random.choices(colors),
+    "2" : random.choices(colors),
+    "3" : random.choices(colors),
+    "4" : random.choices(colors),
     "turn" : 0
 }
 
